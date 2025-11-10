@@ -75,10 +75,10 @@ logging.getLogger('httpx').setLevel(logging.WARNING)
 logging.getLogger('telegram').setLevel(logging.WARNING)
 
 # Bot Token - Replace with your bot token
-BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8457913630:AAGHtn4JXN0en9AeDvdRrrvSBCSeB4EVqf8")
+BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "YOU TELEGRAM TOKEN HERE")
 
 # Gopher AI API Configuration
-GOPHER_API_TOKEN = os.environ.get("GOPHER_API_TOKEN", "UYfNr7tVRR3u6QrpgNF4lYD5Sf5kfBFXAKU1fGDSfSO0GKjN")
+GOPHER_API_TOKEN = os.environ.get("GOPHER_API_TOKEN", "YOU GOPHER API TOKEN HERE")
 GOPHER_API_BASE = "https://data.gopher-ai.com/api/v1"
 
 # Store user search state
