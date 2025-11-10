@@ -52,3 +52,45 @@ pip install python-telegram-bot requests
 
 Create a new file called bot.py and paste this basic working example:
 
+main.py
+
+🚀 Step 4 — Run the Bot
+
+Run this command in your terminal:
+
+python bot.py
+
+If everything is good, you’ll see:
+
+🤖 Bot is starting...
+📱 Bot Token: 1234567890...
+🔄 Bot is running with polling...
+
+Then open your bot in Telegram → type /start.
+
+
+---
+
+💡 Step 5 — Test Commands
+
+Your bot will support these commands:
+
+/start — greet user
+/help — show available commands
+/info — show bot information
+/search — begin Gopher data search
+
+⚙️ Technologies Used
+Python (🐍)
+python-telegram-bot (💬)
+Requests (🌐)
+Gopher AI API (🧠)
+Logging System (🪵)
+
+🧠 About Gopher AI
+Gopher AI is a data & AI platform that provides real-time access to social analysis, trends, and digital content via API.
+
+👨‍💻 Developer
+Created by the Gopher AI Community.
+Inspired to democratize access to digital data through AI.
+💡 Contribute & Explore with us!
